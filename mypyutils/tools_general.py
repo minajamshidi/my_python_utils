@@ -1,4 +1,5 @@
 
+import os
 import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.colors as colors
@@ -67,6 +68,11 @@ def listdir_restricted(dir_path, string_criterion):
     IDs_all = os.listdir(dir_path)
     IDs_with_string = [id1 for id1 in IDs_all if string_criterion in id1]
     return IDs_with_string
+
+
+def listdir_nohidden(dir_path):
+    files = os.listdir(dir_path)
+    return [f for f in files if not f.startswith('.')]
 
 
 def save_json_from_numpy(filename, var):

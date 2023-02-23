@@ -4,7 +4,7 @@ import mne
 from mne.simulation import simulate_sparse_stc
 from tools_signal import zero_pad_to_pow2
 from scipy.signal import hilbert
-from tools_signal import hilbert_
+from ..tools_signal import hilbert_
 from scipy.signal import filtfilt, butter
 
 

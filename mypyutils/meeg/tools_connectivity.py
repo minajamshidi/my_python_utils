@@ -1,6 +1,6 @@
 import numpy as np
 import scipy.signal as sp
-from tools_signal import hilbert_
+from ..tools_signal import hilbert_
 from scipy.stats import pearsonr
 import itertools
 import multiprocessing
