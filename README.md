@@ -7,7 +7,7 @@ $ pip install git+https://github.com/minajamshidi/my_python_utils.git
 ```
 and import it with:
 ```bash
-$ import mypyutils
+import mypyutils
 ```
 
 * The package covers functions and classes for machine learning, and signal processing, and more general purposes.
@@ -19,7 +19,7 @@ $ import mypyutils
 
 ## Modules
 ```bash
-$ import mypyutils.tools_signal as mysignal
+import mypyutils.tools_signal as mysignal
 ```
 
 * to be completed....
